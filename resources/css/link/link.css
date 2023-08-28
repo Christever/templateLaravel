@@ -1,0 +1,8 @@
+/* Links */
+.link {
+    @apply transition duration-500;
+}
+
+.link:hover {
+    @apply text-blue-800;
+}

@@ -1,0 +1,19 @@
+@import "./card/card.css";
+@import "./alerts/alert.css";
+@import "./buttons/button.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Alpine.js (x-cloak - https://alpinejs.dev/directives/cloak) */
+[x-cloak] {
+  display: none !important;
+}
+
+/* Général */
+html,
+body {
+    @apply bg-neutral-200;
+}
+

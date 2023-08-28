@@ -1,0 +1,21 @@
+/* Cards */
+.card {
+    @apply rounded-lg px-5 py-5 border border-secondary h-full flex flex-col;
+}
+
+.card img {
+    @apply rounded-xl;
+}
+
+.card-image {
+    @apply rounded-lg h-full self-center transition duration-500 hover:-translate-y-1 hover:-translate-x-1;
+    box-shadow: 9px 10px 7px 0px rgba(0, 0, 0, 0.34);
+}
+
+.card-title {
+    @apply text-center mt-5 text-xl;
+}
+
+.card-footer {
+    @apply mt-5;
+}

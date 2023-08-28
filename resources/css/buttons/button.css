@@ -1,0 +1,26 @@
+/* Button */
+.btn {
+    @apply inline border-none rounded-lg my-2 py-1 px-2 w-40;
+}
+.btn:hover {
+   @apply font-semibold;
+}
+
+.btn-primary {
+    @apply bg-primary text-secondary
+}
+.btn-secondary {
+    @apply bg-secondary text-primary
+}
+.btn-success {
+    @apply bg-success text-green-700;
+}
+.btn-danger {
+    @apply bg-danger text-red-950;
+}
+.btn-warning {
+    @apply bg-warning text-yellow-600;
+}
+.btn-info {
+    @apply bg-info text-blue-900;
+}
